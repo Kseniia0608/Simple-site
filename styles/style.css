@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:ital@1&display=swap');
+
+:root {
+    --fs-normal: 16px;
+    --fs-sm: 13;
+    --fs-h1: 48px;
+    --fs-h2: 32px;
+    --fs-h3: 21px;
+    /* color palette */
+    --grey: #EEEFF1;
+    --white: #FFFFFF;
+    --darkblue: #34547A;
+    /*container sizes*/
+    --container-width: 1110px;
+    --container-space: 100px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: hsla(0, 0%, 98%, 1);
+    font-family: Roboto;
+
+}
+
+.container {
+    max-width: calc(var(--container-width) + var(--container-space) * 2);
+    padding: 0 var(--container-space);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section-first {
+    background-color: var(--white);
+}
+
+.txt-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+
+
+/*header*/
+.header {
+    background-color: var(--grey);
+}
+
+/*top*/
+.header__nav-top {
+    padding: 79px;
+}
+
+.header__nav-top-links {
+    display: flex;
+    font-style: none;
+    line-height: 16px;
+    justify-content: space-between;
+    letter-spacing: 10px;
+}
+
+
+
+.header__nav-top-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--fs-normal);
+    display: flex;
+    padding-top: 79px;
+}
+
+a {
+    color: black;
+
+}
+
+/*middle*/
+
+
+.header__middle-text-wrap {
+    display: block;
+    gap: 65px;
+    flex-wrap: wrap;
+    padding-top: 162px;
+    padding-bottom: 84px;
+
+}
+
+.header__middle-text {
+    max-width: 541px;
+}
+
+p {
+    font-size: var(--fs-sm);
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    font-family: "Roboto";
+    text-align: left;
+    padding-bottom: 65px;
+
+}
+
+/*buttons*/
+.btn {
+    background-color: #34547A;
+    border: none;
+    font-weight: 400;
+    line-height: 26.25px;
+    font-size: var(--fs-normal);
+    width: 225px;
+    height: 65px;
+    cursor: pointer;
+    color: #EEEFF1;
+}
+
+.h1 {
+    text-align: center;
+    font-size: var(--fs-h1);
+    font-style: normal;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: black;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.header__bottom {
+    background-color: var(--white);
+}
+
+.header__bottom-wrap {
+    display: flex;
+    width: 541px;
+    padding-top: 112px;
+    padding-bottom: 100px;
+}
+
+
+
+.h2 {
+    text-align: center;
+    font-size: var(--fs-h3);
+    font-style: normal;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.txt-wrap-p {
+    color: var(--white);
+    font-size: var(--fs-sm);
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+
+.section {
+    background-color: var(--darkblue);
+}
+
+.section__card-wrap {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.txt-wrap-card {
+    float: right;
+    padding-left: 10px;
+
+}
+
+.h3 {
+    font-size: var(--fs-h3);
+    font-style: normal;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: var(--white);
+}
+
+.txt-wrap-p {
+    font-size: var(--fs-sm);
+    font-style: normal;
+    font-weight: 400;
+    color: var(--white);
+    font-family: "Roboto";
+    padding-top: 10px;
+}
+
+.main {
+    background-color: var(--white);
+
+}
+
+.main__top-text-wrap {
+    display: block;
+    max-width: 540px;
+    padding-top: 100px;
+    padding-bottom: 57px;
+}
+
+.txt-h2 {
+    font-size: var(--fs-h2);
+    font-style: normal;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: black;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.txt {
+    font-size: var(--fs-sm);
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.main__middle-video-wrap {
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.footer {
+    background-color: var(--darkblue);
+    flex-direction: column;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+
+.txt-h3 {
+    color: var(--white);
+    font-size: var(--fs-h3);
+}
+
+.p-txt {
+    color: var(--white);
+    font-size: var(--fs-sm);
+}

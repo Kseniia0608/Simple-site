@@ -42,18 +42,6 @@ body {
     margin: 0 auto;
 }
 
-.section-first {
-    background-color: var(--white);
-}
-
-.txt-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-
-}
-
-
 
 /*header*/
 .header {
@@ -69,8 +57,8 @@ body {
     display: flex;
     font-style: none;
     line-height: 16px;
-    justify-content: space-between;
-    letter-spacing: 10px;
+    gap: 30px;
+ 
 }
 
 
@@ -81,12 +69,16 @@ body {
     font-size: var(--fs-normal);
     display: flex;
     padding-top: 79px;
+     font-family: "Roboto";
 }
 
 a {
     color: black;
-
 }
+a:first-child {
+    color: rgb(98, 113, 255);
+}
+
 
 /*middle*/
 
@@ -237,7 +229,9 @@ p {
     align-items: center;
     padding-bottom: 100px;
 }
-
+video {
+    width: 100%;
+}
 .footer {
     background-color: var(--darkblue);
     flex-direction: column;
